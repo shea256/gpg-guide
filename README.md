@@ -166,6 +166,6 @@ gpg --delete-secret-keys
 
 ### Resources
 
-http://www.jenserat.de/files/openpgp/A4FF2279-cert-policy-current.txt
-http://martin-krafft.net/gpg/cert-policy/55c9882d999bbcc4/200907121833
-http://wiki.cacert.org/PracticeOnNames
++ http://www.jenserat.de/files/openpgp/A4FF2279-cert-policy-current.txt
++ http://martin-krafft.net/gpg/cert-policy/55c9882d999bbcc4/200907121833
++ http://wiki.cacert.org/PracticeOnNames
