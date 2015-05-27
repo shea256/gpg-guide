@@ -1,166 +1,165 @@
 # gpg-guide
 
-## Setup
+### Setup
 
-#### Generate a new keypair
+##### Generate a new keypair
 
 ```
 gpg --gen-key
 ```
 
-#### Generate a revocation certificate
+##### Generate a revocation certificate
 
 ```
 gpg --gen-revoke
 ```
 
-## Key inspection
+### Key inspection
 
-#### List keys
+##### List keys
 
 ```
 gpg --list-keys
 ```
 
-#### List keys and signatures
+##### List keys and signatures
 
 ```
 gpg --list-sigs
 ```
 
-#### List and check key signatures
+##### List and check key signatures
 
 ```
 gpg --check-sigs
 ```
 
-#### List keys and fingerprints
+##### List keys and fingerprints
 
 ```
 gpg --fingerprint
 ```
 
-#### List secret keys
+##### List secret keys
 
 ```
 gpg --list-secret-keys
 ```
 
-## Signatures and verification
+### Signatures and verification
 
-#### Make a signature
+##### Make a signature
 
 ```
 gpg --sign
 ```
 
-#### Make a clear text signature
+##### Make a clear text signature
 
 ```
 gpg --clearsign
 ```
 
-#### Make a detached signature
+##### Make a detached signature
 
 ```
 gpg --detach-sign
 ```
 
-#### Verify a signature
+##### Verify a signature
 
 ```
 gpg --verify
 ```
 
-## Encryption and decryption
+### Encryption and decryption
 
-#### Encrypt data
+##### Encrypt data
 
 ```
 gpg --encrypt
 ```
 
-#### Encryption only with symmetric cypher
+##### Encryption only with symmetric cypher
 
 ```
 gpg --symmetric
 ```
 
-#### Decrypt data (default)
+##### Decrypt data (default)
 
 ```
 gpg --decrypt
 ```
 
-## Key Signing
+### Key Signing
 
-#### Sign a key
+##### Sign a key
 
 ```
 gpg --sign-key
 ```
 
-#### Sign a key locally
+##### Sign a key locally
 
 ```
 gpg --lsign-key
 ```
 
-#### Sign or edit a key
+##### Sign or edit a key
 
 ```
 gpg --edit-key
 ```
 
-## Key Servers
+### Key Servers
 
-#### Export keys
+##### Export keys
 
 ```
 gpg --export
 ```
 
-#### Export keys to a key server
+##### Export keys to a key server
 
 ```
 gpg --send-keys
 ```
 
-#### Import keys from a key server
+##### Import keys from a key server
 
 ```
 gpg --recv-keys
 ```
 
-#### Search for all keys on a key server
+##### Search for all keys on a key server
 
 ```
 gpg --search-keys
 ```
 
-#### Update all keys from a key server
+##### Update all keys from a key server
 
 ```
 gpg --refresh-keys
 ```
 
-#### Import/merge keys
+##### Import/merge keys
 
 ```
 gpg --import
 ```
 
-## Cleanup
+### Cleanup
 
-#### Remove keys from the public keyring
+##### Remove keys from the public keyring
 
 ```
 gpg --delete-keys
 ```
 
-#### Remove keys from the secret keyring
+##### Remove keys from the secret keyring
 
 ```
 gpg --delete-secret-keys
 ```
-
